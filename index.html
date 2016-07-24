@@ -1,0 +1,44 @@
+<!DOCTYPE hmtl>
+<html lang="en-US" class="terminal">
+<head>
+
+<title>ruthra.tech</title>
+
+<style type="text/css">
+.terminal
+{
+	/* These properties set the background color, font and other for entire terminal */
+	/* text cursor or "Carot" uses the follwing color #0F4999 */
+	background-color:#131926;
+	font-family:DejaVu Sans Mono;
+	font-size:9pt;
+	color:#B3B3B3;
+}
+
+#prompt
+{
+	
+}
+
+#carot
+{
+
+	background-color:#0F4999;
+}
+
+</style>
+
+<script language="Javascript" src="keyboard_handler.js" type="text/javascript"></script>
+<script language="Javascript" src="commands.js" type="text/javascript"></script>
+</head>
+<body onload="javascript:Init()">
+<table id="terminal" class="terminal">
+<tbody id="t_body">
+<tr id="prompt">
+<td >[ruthra@BackBox-4.4]:~$ <span id="carot">&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
